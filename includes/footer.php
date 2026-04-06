@@ -10,21 +10,21 @@
                 <div class="col-6 col-lg-2">
                     <h3 class="footer-title">Quick Links</h3>
                     <ul class="list-unstyled footer-links" aria-label="Quick links">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="about.php">About</a></li>
-                        <li><a href="services.php">Services</a></li>
-                        <li><a href="pricing.php">Pricing</a></li>
-                        <li><a href="portfolio.php">Portfolio</a></li>
-                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/services">Services</a></li>
+                        <li><a href="/pricing">Pricing</a></li>
+                        <li><a href="/portfolio">Portfolio</a></li>
+                        <li><a href="/contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-lg-3">
                     <h3 class="footer-title">Services</h3>
                     <ul class="list-unstyled footer-links" aria-label="Service links">
-                        <li><a href="services.php#website-development">Website Development</a></li>
-                        <li><a href="services.php#email-setup">Professional Email Setup</a></li>
-                        <li><a href="services.php#hosting-domains">Hosting &amp; Domains</a></li>
-                        <li><a href="services.php#software-solutions">Software Solutions</a></li>
+                        <li><a href="/services#website-development">Website Development</a></li>
+                        <li><a href="/services#email-setup">Professional Email Setup</a></li>
+                        <li><a href="/services#hosting-domains">Hosting &amp; Domains</a></li>
+                        <li><a href="/services#software-solutions">Software Solutions</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3">

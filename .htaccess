@@ -1,0 +1,20 @@
+RewriteEngine On
+
+# Canonical home
+RewriteRule ^index\.php$ / [R=301,L]
+
+# Handle common misspellings
+RewriteRule ^portifolio/?$ /portfolio [R=301,L,NC]
+RewriteRule ^prcing/?$ /pricing [R=301,L,NC]
+
+# Pretty routes
+RewriteRule ^about/?$ /about.php [L]
+RewriteRule ^services/?$ /services.php [L]
+RewriteRule ^pricing/?$ /pricing.php [L]
+RewriteRule ^portfolio/?$ /portfolio.php [L]
+RewriteRule ^contact/?$ /contact.php [L]
+
+# Keep existing files/directories available as-is
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]

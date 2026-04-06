@@ -2,7 +2,7 @@
 $page_title = 'Pricing | Antfarm Tech Solutions Website Packages';
 $meta_description = 'View Antfarm Tech Solutions website pricing packages for businesses in Harare, Zimbabwe: Basic, Standard, and Premium plans.';
 $page_slug = 'pricing';
-$canonical_path = '/pricing.php';
+$canonical_path = '/pricing';
 include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
@@ -41,7 +41,7 @@ include 'includes/navbar.php';
                             <li>WhatsApp chat</li>
                             <li>3 email accounts</li>
                         </ul>
-                        <a href="contact.php" class="btn btn-outline-premium w-100 mt-4">Choose Basic</a>
+                        <a href="/contact" class="btn btn-outline-premium w-100 mt-4">Choose Basic</a>
                     </article>
                 </div>
                 <div class="col-md-6 col-xl-4">
@@ -56,7 +56,7 @@ include 'includes/navbar.php';
                             <li>WhatsApp chat</li>
                             <li>5 email accounts</li>
                         </ul>
-                        <a href="contact.php" class="btn btn-premium w-100 mt-4">Choose Standard</a>
+                        <a href="/contact" class="btn btn-premium w-100 mt-4">Choose Standard</a>
                     </article>
                 </div>
                 <div class="col-md-6 col-xl-4">
@@ -70,7 +70,7 @@ include 'includes/navbar.php';
                             <li>Advanced features</li>
                             <li>Up to 10 email accounts</li>
                         </ul>
-                        <a href="contact.php" class="btn btn-outline-premium w-100 mt-4">Choose Premium</a>
+                        <a href="/contact" class="btn btn-outline-premium w-100 mt-4">Choose Premium</a>
                     </article>
                 </div>
             </div>
@@ -97,7 +97,7 @@ include 'includes/navbar.php';
                         <p class="mb-0">Share your goals with us and receive a professional recommendation aligned with your timeline and budget.</p>
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a href="contact.php" class="btn btn-cta-solid btn-lg px-4 me-2 mb-2 mb-md-0">Get a Quote</a>
+                        <a href="/contact" class="btn btn-cta-solid btn-lg px-4 me-2 mb-2 mb-md-0">Get a Quote</a>
                         <a href="https://wa.me/263713409369" target="_blank" rel="noopener" class="btn btn-cta-ghost btn-lg px-4">Chat on WhatsApp</a>
                     </div>
                 </div>

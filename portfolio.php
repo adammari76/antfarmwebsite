@@ -2,7 +2,7 @@
 $page_title = 'Portfolio | Antfarm Tech Solutions Projects';
 $meta_description = 'Explore portfolio highlights from Antfarm Tech Solutions, showcasing premium digital projects for businesses in Harare and across Zimbabwe.';
 $page_slug = 'portfolio';
-$canonical_path = '/portfolio.php';
+$canonical_path = '/portfolio';
 include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
@@ -96,7 +96,7 @@ include 'includes/navbar.php';
                         <p class="mb-0">Partner with Antfarm Tech Solutions to create a custom project that reflects your brand and drives meaningful growth.</p>
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a href="contact.php" class="btn btn-cta-solid btn-lg px-4 me-2 mb-2 mb-md-0">Start Your Project</a>
+                        <a href="/contact" class="btn btn-cta-solid btn-lg px-4 me-2 mb-2 mb-md-0">Start Your Project</a>
                         <a href="https://wa.me/263713409369" target="_blank" rel="noopener" class="btn btn-cta-ghost btn-lg px-4">WhatsApp Us</a>
                     </div>
                 </div>

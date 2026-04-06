@@ -2,7 +2,7 @@
 $page_title = 'Services | Antfarm Tech Solutions Harare';
 $meta_description = 'Explore premium website development, professional email setup, hosting, and software solutions from Antfarm Tech Solutions in Harare, Zimbabwe.';
 $page_slug = 'services';
-$canonical_path = '/services.php';
+$canonical_path = '/services';
 include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
@@ -42,7 +42,7 @@ include 'includes/navbar.php';
                     </ul>
                 </div>
                 <div class="service-feature-cta">
-                    <a href="contact.php" class="btn btn-premium btn-lg px-4">Start Website Project</a>
+                    <a href="/contact" class="btn btn-premium btn-lg px-4">Start Website Project</a>
                 </div>
             </article>
         </div>
@@ -63,7 +63,7 @@ include 'includes/navbar.php';
                     </ul>
                 </div>
                 <div class="service-feature-cta">
-                    <a href="contact.php" class="btn btn-outline-premium btn-lg px-4">Set Up Business Email</a>
+                    <a href="/contact" class="btn btn-outline-premium btn-lg px-4">Set Up Business Email</a>
                 </div>
             </article>
         </div>
@@ -84,7 +84,7 @@ include 'includes/navbar.php';
                     </ul>
                 </div>
                 <div class="service-feature-cta">
-                    <a href="contact.php" class="btn btn-premium btn-lg px-4">Secure Hosting Setup</a>
+                    <a href="/contact" class="btn btn-premium btn-lg px-4">Secure Hosting Setup</a>
                 </div>
             </article>
         </div>
@@ -105,7 +105,7 @@ include 'includes/navbar.php';
                     </ul>
                 </div>
                 <div class="service-feature-cta">
-                    <a href="contact.php" class="btn btn-outline-premium btn-lg px-4">Discuss Software Needs</a>
+                    <a href="/contact" class="btn btn-outline-premium btn-lg px-4">Discuss Software Needs</a>
                 </div>
             </article>
         </div>
@@ -121,7 +121,7 @@ include 'includes/navbar.php';
                         <p class="mb-0">Tell us what your business needs today, and we will propose a premium, practical solution for tomorrow.</p>
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a href="contact.php" class="btn btn-cta-solid btn-lg px-4 me-2 mb-2 mb-md-0">Request Proposal</a>
+                        <a href="/contact" class="btn btn-cta-solid btn-lg px-4 me-2 mb-2 mb-md-0">Request Proposal</a>
                         <a href="https://wa.me/263713409369" target="_blank" rel="noopener" class="btn btn-cta-ghost btn-lg px-4">WhatsApp Us</a>
                     </div>
                 </div>
