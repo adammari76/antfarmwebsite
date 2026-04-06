@@ -57,7 +57,7 @@ if (!empty($errors)) {
     exit;
 }
 
-$to = 'hello@antfarm.co.zw';
+$to = 'sales@antfarm.co.zw';
 $subject = 'New Contact Enquiry - Antfarm Tech Solutions';
 
 $body = "You have received a new website enquiry:\n\n";
