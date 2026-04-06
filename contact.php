@@ -4,7 +4,7 @@ session_start();
 $page_title = 'Contact Antfarm Tech Solutions | Website Experts in Harare';
 $meta_description = 'Contact Antfarm Tech Solutions in Harare, Zimbabwe for websites, business email setup, SEO improvements, and ongoing digital support.';
 $page_slug = 'contact';
-$canonical_path = '/contact.php';
+$canonical_path = '/contact';
 
 $form_errors = $_SESSION['form_errors'] ?? [];
 $form_success = $_SESSION['form_success'] ?? '';
@@ -120,7 +120,7 @@ include 'includes/navbar.php';
             <article class="premium-panel text-center reveal-up">
                 <p class="section-label">Prefer a Quick Route?</p>
                 <h2 class="section-title h3">Call, WhatsApp, or send your brief and we will take it from there.</h2>
-                <p class="section-text section-text-center mb-4">Need more detail first? Explore our <a href="services.php">services</a> or compare website packages on the <a href="pricing.php">pricing page</a>.</p>
+                <p class="section-text section-text-center mb-4">Need more detail first? Explore our <a href="/services">services</a> or compare website packages on the <a href="/pricing">pricing page</a>.</p>
                 <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
                     <a href="tel:+263713409369" class="btn btn-outline-premium px-4">Call Us Directly</a>
                     <a href="https://wa.me/263713409369" target="_blank" rel="noopener" class="btn btn-premium px-4">Continue on WhatsApp</a>

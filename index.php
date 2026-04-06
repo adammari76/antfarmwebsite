@@ -2,7 +2,7 @@
 $page_title = 'Antfarm Tech Solutions | Smart Websites & Digital Growth in Harare';
 $meta_description = 'Antfarm Tech Solutions builds premium websites, professional business emails, and digital growth systems for businesses in Harare, Zimbabwe.';
 $page_slug = 'home';
-$canonical_path = '/index.php';
+$canonical_path = '/';
 include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
@@ -18,7 +18,7 @@ include 'includes/navbar.php';
                     <h1 class="hero-title reveal-up">Smart Websites. Professional Emails. Real Business Growth.</h1>
                     <p class="hero-subtitle reveal-up">We help Zimbabwean businesses build a strong online presence with modern websites and digital solutions.</p>
                     <div class="d-flex flex-column flex-sm-row gap-3 mt-4 reveal-up">
-                        <a href="contact.php" class="btn btn-premium btn-lg px-4">Get Started</a>
+                        <a href="/contact" class="btn btn-premium btn-lg px-4">Get Started</a>
                         <a href="https://wa.me/263713409369" target="_blank" rel="noopener" class="btn btn-outline-premium btn-lg px-4">Chat on WhatsApp</a>
                     </div>
                     <div class="hero-metrics row g-3 mt-4 reveal-up">
@@ -174,7 +174,7 @@ include 'includes/navbar.php';
                         <p class="pricing-plan">Basic</p>
                         <h3>USD 150–200</h3>
                         <p>Essential professional presence for businesses establishing their digital foundation.</p>
-                        <a href="pricing.php" class="link-arrow">View Full Pricing <span>&rarr;</span></a>
+                        <a href="/pricing" class="link-arrow">View Full Pricing <span>&rarr;</span></a>
                     </article>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -183,7 +183,7 @@ include 'includes/navbar.php';
                         <p class="pricing-plan">Standard</p>
                         <h3>USD 250–350</h3>
                         <p>Our most selected package for businesses ready to grow with a stronger online system.</p>
-                        <a href="contact.php" class="link-arrow">Get a Quote <span>&rarr;</span></a>
+                        <a href="/contact" class="link-arrow">Get a Quote <span>&rarr;</span></a>
                     </article>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -191,7 +191,7 @@ include 'includes/navbar.php';
                         <p class="pricing-plan">Premium</p>
                         <h3>USD 350+</h3>
                         <p>Comprehensive digital execution for brands that need advanced functionality and impact.</p>
-                        <a href="pricing.php" class="link-arrow">View Full Pricing <span>&rarr;</span></a>
+                        <a href="/pricing" class="link-arrow">View Full Pricing <span>&rarr;</span></a>
                     </article>
                 </div>
             </div>
@@ -208,7 +208,7 @@ include 'includes/navbar.php';
                         <p class="mb-0">Let's design and launch a premium digital presence that positions your company for the next level.</p>
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a href="contact.php" class="btn btn-light btn-lg px-4 me-2 mb-2 mb-md-0">Request a Quote</a>
+                        <a href="/contact" class="btn btn-light btn-lg px-4 me-2 mb-2 mb-md-0">Request a Quote</a>
                         <a href="https://wa.me/263713409369" target="_blank" rel="noopener" class="btn btn-outline-light btn-lg px-4">WhatsApp Us</a>
                     </div>
                 </div>
