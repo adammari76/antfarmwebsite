@@ -10,12 +10,12 @@
             </button>
             <div class="collapse navbar-collapse" id="mainNav">
                 <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2 mt-3 mt-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="pricing.php">Pricing</a></li>
-                    <li class="nav-item"><a class="nav-link" href="portfolio.php">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link <?php echo $page_slug === 'home' ? 'active' : ''; ?>" href="index.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link <?php echo $page_slug === 'about' ? 'active' : ''; ?>" href="about.php">About</a></li>
+                    <li class="nav-item"><a class="nav-link <?php echo $page_slug === 'services' ? 'active' : ''; ?>" href="services.php">Services</a></li>
+                    <li class="nav-item"><a class="nav-link <?php echo $page_slug === 'pricing' ? 'active' : ''; ?>" href="pricing.php">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link <?php echo $page_slug === 'portfolio' ? 'active' : ''; ?>" href="portfolio.php">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link <?php echo $page_slug === 'contact' ? 'active' : ''; ?>" href="contact.php">Contact</a></li>
                     <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
                         <a class="btn btn-premium btn-sm px-4" href="contact.php">Get a Quote</a>
                     </li>
