@@ -1,15 +1,15 @@
-<footer class="site-footer section-pad-top">
+<footer class="site-footer section-pad-top" aria-labelledby="footer-heading">
     <div class="container">
         <div class="footer-panel">
             <div class="row g-4 g-lg-5">
                 <div class="col-lg-4">
-                    <h2 class="footer-brand">Antfarm Tech Solutions</h2>
+                    <h2 id="footer-heading" class="footer-brand">Antfarm Tech Solutions</h2>
                     <p class="footer-text mb-0">A premium digital agency helping Zimbabwean businesses build modern websites, professional communication systems, and reliable digital infrastructure for sustainable growth.</p>
                     <a href="https://wa.me/263713409369" class="footer-whatsapp" target="_blank" rel="noopener">WhatsApp Consultation</a>
                 </div>
                 <div class="col-6 col-lg-2">
                     <h3 class="footer-title">Quick Links</h3>
-                    <ul class="list-unstyled footer-links">
+                    <ul class="list-unstyled footer-links" aria-label="Quick links">
                         <li><a href="index.php">Home</a></li>
                         <li><a href="about.php">About</a></li>
                         <li><a href="services.php">Services</a></li>
@@ -20,11 +20,11 @@
                 </div>
                 <div class="col-6 col-lg-3">
                     <h3 class="footer-title">Services</h3>
-                    <ul class="list-unstyled footer-links">
-                        <li><a href="services.php">Website Development</a></li>
-                        <li><a href="services.php">Professional Email Setup</a></li>
-                        <li><a href="services.php">Hosting &amp; Domains</a></li>
-                        <li><a href="services.php">Software Solutions</a></li>
+                    <ul class="list-unstyled footer-links" aria-label="Service links">
+                        <li><a href="services.php#website-development">Website Development</a></li>
+                        <li><a href="services.php#email-setup">Professional Email Setup</a></li>
+                        <li><a href="services.php#hosting-domains">Hosting &amp; Domains</a></li>
+                        <li><a href="services.php#software-solutions">Software Solutions</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3">

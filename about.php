@@ -2,11 +2,12 @@
 $page_title = 'About Antfarm Tech Solutions | Premium Digital Agency in Harare';
 $meta_description = 'Learn about Antfarm Tech Solutions, a Harare-based digital company delivering premium websites, business email, and dependable digital support across Zimbabwe.';
 $page_slug = 'about';
+$canonical_path = '/about.php';
 include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
 
-<main>
+<main id="main-content" tabindex="-1">
     <section class="inner-hero-section position-relative overflow-hidden">
         <div class="hero-glow hero-glow-1"></div>
         <div class="hero-glow hero-glow-2"></div>
