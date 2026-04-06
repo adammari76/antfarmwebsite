@@ -11,10 +11,17 @@ include 'includes/navbar.php';
         <div class="hero-glow hero-glow-1"></div>
         <div class="hero-glow hero-glow-2"></div>
         <div class="container position-relative z-2">
-            <div class="inner-hero-content reveal-up">
-                <p class="hero-badge">Our Services</p>
-                <h1 class="inner-hero-title">Premium digital services designed to strengthen your business online.</h1>
-                <p class="inner-hero-text">From custom websites to reliable hosting and software tools, we build integrated solutions that help businesses in Harare, Zimbabwe move with confidence.</p>
+            <div class="inner-hero-shell reveal-up">
+                <div class="inner-hero-content">
+                    <p class="hero-badge">Our Services</p>
+                    <h1 class="inner-hero-title">Premium digital services designed to strengthen your business online.</h1>
+                    <p class="inner-hero-text">From custom websites to reliable hosting and software tools, we build integrated solutions that help businesses in Harare, Zimbabwe move with confidence.</p>
+                    <div class="inner-hero-meta">
+                        <span class="inner-meta-pill">Strategy + Execution</span>
+                        <span class="inner-meta-pill">Custom-Built Solutions</span>
+                        <span class="inner-meta-pill">Local Ongoing Support</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -113,8 +120,8 @@ include 'includes/navbar.php';
                         <p class="mb-0">Tell us what your business needs today, and we will propose a premium, practical solution for tomorrow.</p>
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a href="contact.php" class="btn btn-light btn-lg px-4 me-2 mb-2 mb-md-0">Request Proposal</a>
-                        <a href="https://wa.me/263713409369" target="_blank" rel="noopener" class="btn btn-outline-light btn-lg px-4">WhatsApp Us</a>
+                        <a href="contact.php" class="btn btn-cta-solid btn-lg px-4 me-2 mb-2 mb-md-0">Request Proposal</a>
+                        <a href="https://wa.me/263713409369" target="_blank" rel="noopener" class="btn btn-cta-ghost btn-lg px-4">WhatsApp Us</a>
                     </div>
                 </div>
             </div>
