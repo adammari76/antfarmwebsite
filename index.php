@@ -50,7 +50,7 @@ include 'includes/navbar.php';
         </div>
     </section>
 
-    <section class="section-pad trust-section">
+    <section class="section-pad trust-section section-transition-soft">
         <div class="container">
             <div class="row align-items-center g-4">
                 <div class="col-lg-6">
@@ -64,7 +64,7 @@ include 'includes/navbar.php';
         </div>
     </section>
 
-    <section class="section-pad services-preview bg-deep">
+    <section class="section-pad services-preview bg-deep section-transition-top">
         <div class="container">
             <div class="section-heading text-center mb-5">
                 <p class="section-label reveal-up">Services</p>
@@ -103,7 +103,7 @@ include 'includes/navbar.php';
         </div>
     </section>
 
-    <section class="section-pad why-section">
+    <section class="section-pad why-section section-transition-soft">
         <div class="container">
             <div class="section-heading mb-5 text-center">
                 <p class="section-label reveal-up">Why Choose Antfarm</p>
@@ -120,7 +120,7 @@ include 'includes/navbar.php';
         </div>
     </section>
 
-    <section class="section-pad pricing-preview bg-deep">
+    <section class="section-pad pricing-preview bg-deep section-transition-top">
         <div class="container">
             <div class="section-heading text-center mb-5">
                 <p class="section-label reveal-up">Featured Pricing</p>
@@ -156,7 +156,7 @@ include 'includes/navbar.php';
         </div>
     </section>
 
-    <section class="section-pad cta-strip">
+    <section class="section-pad cta-strip section-transition-soft">
         <div class="container">
             <div class="cta-panel reveal-up">
                 <div class="row align-items-center g-4">
