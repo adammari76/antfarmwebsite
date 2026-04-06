@@ -11,17 +11,24 @@ include 'includes/navbar.php';
         <div class="hero-glow hero-glow-1"></div>
         <div class="hero-glow hero-glow-2"></div>
         <div class="container position-relative z-2">
-            <div class="inner-hero-content reveal-up">
-                <p class="hero-badge">Portfolio</p>
-                <h1 class="inner-hero-title">Selected digital work crafted for modern businesses.</h1>
-                <p class="inner-hero-text">Every project is custom designed to reflect brand quality, improve user experience, and support measurable growth.</p>
+            <div class="inner-hero-shell reveal-up">
+                <div class="inner-hero-content">
+                    <p class="hero-badge">Portfolio</p>
+                    <h1 class="inner-hero-title">Selected digital work crafted for modern businesses.</h1>
+                    <p class="inner-hero-text">Every project is custom designed to reflect brand quality, improve user experience, and support measurable growth.</p>
+                    <div class="inner-hero-meta">
+                        <span class="inner-meta-pill">Brand-Led Design</span>
+                        <span class="inner-meta-pill">Conversion-Aware UX</span>
+                        <span class="inner-meta-pill">Performance Ready</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="section-pad section-transition-soft">
         <div class="container">
-            <div class="section-heading text-center mb-5">
+            <div class="section-heading tight text-center">
                 <p class="section-label reveal-up">Showcase</p>
                 <h2 class="section-title reveal-up">Delivering custom digital solutions for businesses in Harare and beyond.</h2>
             </div>
@@ -31,6 +38,7 @@ include 'includes/navbar.php';
                     <div class="portfolio-body">
                         <h3>Corporate Consulting Website</h3>
                         <p>Premium multi-page company website with strategic messaging and lead-focused conversion flow.</p>
+                        <p class="portfolio-meta mb-0">Corporate · Multi-page · Lead Generation</p>
                     </div>
                 </article>
                 <article class="portfolio-item reveal-up">
@@ -38,6 +46,7 @@ include 'includes/navbar.php';
                     <div class="portfolio-body">
                         <h3>Retail Ecommerce Platform</h3>
                         <p>Clean ecommerce experience built to improve product discovery, trust, and mobile purchasing.</p>
+                        <p class="portfolio-meta mb-0">Retail · Ecommerce · Mobile Commerce</p>
                     </div>
                 </article>
                 <article class="portfolio-item reveal-up">
@@ -45,6 +54,7 @@ include 'includes/navbar.php';
                     <div class="portfolio-body">
                         <h3>Professional Services Redesign</h3>
                         <p>Complete visual and content refresh that elevated authority and improved inquiry quality.</p>
+                        <p class="portfolio-meta mb-0">Services · Rebrand · Conversion Refresh</p>
                     </div>
                 </article>
                 <article class="portfolio-item reveal-up">
@@ -52,6 +62,7 @@ include 'includes/navbar.php';
                     <div class="portfolio-body">
                         <h3>Bookings &amp; Inquiry Experience</h3>
                         <p>Custom user journey with clear service structure, frictionless inquiries, and stronger conversion signals.</p>
+                        <p class="portfolio-meta mb-0">Bookings · UX Flows · Inquiry Optimisation</p>
                     </div>
                 </article>
                 <article class="portfolio-item reveal-up">
@@ -59,6 +70,7 @@ include 'includes/navbar.php';
                     <div class="portfolio-body">
                         <h3>Hospitality Brand Website</h3>
                         <p>Elegant visual storytelling and responsive layout designed for premium guest perception.</p>
+                        <p class="portfolio-meta mb-0">Hospitality · Storytelling · Responsive</p>
                     </div>
                 </article>
                 <article class="portfolio-item reveal-up">
@@ -66,6 +78,7 @@ include 'includes/navbar.php';
                     <div class="portfolio-body">
                         <h3>Operations Dashboard Interface</h3>
                         <p>Tailored software experience enabling faster reporting, cleaner data, and better internal decisions.</p>
+                        <p class="portfolio-meta mb-0">Software · Dashboard · Decision Support</p>
                     </div>
                 </article>
             </div>
@@ -82,8 +95,8 @@ include 'includes/navbar.php';
                         <p class="mb-0">Partner with Antfarm Tech Solutions to create a custom project that reflects your brand and drives meaningful growth.</p>
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a href="contact.php" class="btn btn-light btn-lg px-4 me-2 mb-2 mb-md-0">Start Your Project</a>
-                        <a href="https://wa.me/263713409369" target="_blank" rel="noopener" class="btn btn-outline-light btn-lg px-4">WhatsApp Us</a>
+                        <a href="contact.php" class="btn btn-cta-solid btn-lg px-4 me-2 mb-2 mb-md-0">Start Your Project</a>
+                        <a href="https://wa.me/263713409369" target="_blank" rel="noopener" class="btn btn-cta-ghost btn-lg px-4">WhatsApp Us</a>
                     </div>
                 </div>
             </div>

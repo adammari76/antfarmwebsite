@@ -11,10 +11,17 @@ include 'includes/navbar.php';
         <div class="hero-glow hero-glow-1"></div>
         <div class="hero-glow hero-glow-2"></div>
         <div class="container position-relative z-2">
-            <div class="inner-hero-content reveal-up">
-                <p class="hero-badge">Pricing</p>
-                <h1 class="inner-hero-title">Transparent packages with premium execution at every level.</h1>
-                <p class="inner-hero-text">Choose a plan that matches your current stage, then scale as your business grows in Harare, Zimbabwe and beyond.</p>
+            <div class="inner-hero-shell reveal-up">
+                <div class="inner-hero-content">
+                    <p class="hero-badge">Pricing</p>
+                    <h1 class="inner-hero-title">Transparent packages with premium execution at every level.</h1>
+                    <p class="inner-hero-text">Choose a plan that matches your current stage, then scale as your business grows in Harare, Zimbabwe and beyond.</p>
+                    <div class="inner-hero-meta">
+                        <span class="inner-meta-pill">Clear Scope Per Plan</span>
+                        <span class="inner-meta-pill">No Hidden Fees</span>
+                        <span class="inner-meta-pill">Scales with Your Business</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -89,8 +96,8 @@ include 'includes/navbar.php';
                         <p class="mb-0">Share your goals with us and receive a professional recommendation aligned with your timeline and budget.</p>
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a href="contact.php" class="btn btn-light btn-lg px-4 me-2 mb-2 mb-md-0">Get a Quote</a>
-                        <a href="https://wa.me/263713409369" target="_blank" rel="noopener" class="btn btn-outline-light btn-lg px-4">Chat on WhatsApp</a>
+                        <a href="contact.php" class="btn btn-cta-solid btn-lg px-4 me-2 mb-2 mb-md-0">Get a Quote</a>
+                        <a href="https://wa.me/263713409369" target="_blank" rel="noopener" class="btn btn-cta-ghost btn-lg px-4">Chat on WhatsApp</a>
                     </div>
                 </div>
             </div>

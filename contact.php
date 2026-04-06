@@ -11,10 +11,17 @@ include 'includes/navbar.php';
         <div class="hero-glow hero-glow-1"></div>
         <div class="hero-glow hero-glow-2"></div>
         <div class="container position-relative z-2">
-            <div class="inner-hero-content reveal-up">
-                <p class="hero-badge">Contact</p>
-                <h1 class="inner-hero-title">Let's discuss your next digital project.</h1>
-                <p class="inner-hero-text">Tell us what you are building, and we will guide you toward a premium, practical solution tailored to your business goals.</p>
+            <div class="inner-hero-shell reveal-up">
+                <div class="inner-hero-content">
+                    <p class="hero-badge">Contact</p>
+                    <h1 class="inner-hero-title">Let's discuss your next digital project.</h1>
+                    <p class="inner-hero-text">Tell us what you are building, and we will guide you toward a premium, practical solution tailored to your business goals.</p>
+                    <div class="inner-hero-meta">
+                        <span class="inner-meta-pill">Fast Response</span>
+                        <span class="inner-meta-pill">Project Clarity First</span>
+                        <span class="inner-meta-pill">Harare Support Team</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -68,7 +75,11 @@ include 'includes/navbar.php';
             <article class="premium-panel text-center reveal-up">
                 <p class="section-label">We're Ready When You Are</p>
                 <h2 class="section-title h3">Tell us your goals, and we'll help you move forward with clarity.</h2>
-                <p class="section-text section-text-center mb-0">Whether you need a new website, professional email setup, or full digital support, our Harare team is here to help.</p>
+                <p class="section-text section-text-center mb-4">Whether you need a new website, professional email setup, or full digital support, our Harare team is here to help.</p>
+                <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+                    <a href="tel:+263713409369" class="btn btn-outline-premium px-4">Call Us Directly</a>
+                    <a href="https://wa.me/263713409369" target="_blank" rel="noopener" class="btn btn-premium px-4">Continue on WhatsApp</a>
+                </div>
             </article>
         </div>
     </section>
