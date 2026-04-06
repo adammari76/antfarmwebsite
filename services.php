@@ -2,11 +2,12 @@
 $page_title = 'Services | Antfarm Tech Solutions Harare';
 $meta_description = 'Explore premium website development, professional email setup, hosting, and software solutions from Antfarm Tech Solutions in Harare, Zimbabwe.';
 $page_slug = 'services';
+$canonical_path = '/services.php';
 include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
 
-<main>
+<main id="main-content" tabindex="-1">
     <section class="inner-hero-section position-relative overflow-hidden">
         <div class="hero-glow hero-glow-1"></div>
         <div class="hero-glow hero-glow-2"></div>
@@ -28,7 +29,7 @@ include 'includes/navbar.php';
 
     <section class="section-pad section-transition-soft">
         <div class="container">
-            <article class="service-feature reveal-up">
+            <article id="website-development" class="service-feature reveal-up">
                 <div>
                     <span class="service-feature-icon" aria-hidden="true">01</span>
                     <h2>Website Development</h2>
@@ -49,7 +50,7 @@ include 'includes/navbar.php';
 
     <section class="section-pad bg-deep section-transition-top">
         <div class="container">
-            <article class="service-feature reverse reveal-up">
+            <article id="email-setup" class="service-feature reverse reveal-up">
                 <div>
                     <span class="service-feature-icon" aria-hidden="true">02</span>
                     <h2>Professional Email Setup</h2>
@@ -70,7 +71,7 @@ include 'includes/navbar.php';
 
     <section class="section-pad section-transition-soft">
         <div class="container">
-            <article class="service-feature reveal-up">
+            <article id="hosting-domains" class="service-feature reveal-up">
                 <div>
                     <span class="service-feature-icon" aria-hidden="true">03</span>
                     <h2>Hosting &amp; Domains</h2>
@@ -91,7 +92,7 @@ include 'includes/navbar.php';
 
     <section class="section-pad bg-deep section-transition-top">
         <div class="container">
-            <article class="service-feature reverse reveal-up">
+            <article id="software-solutions" class="service-feature reverse reveal-up">
                 <div>
                     <span class="service-feature-icon" aria-hidden="true">04</span>
                     <h2>Software Solutions</h2>

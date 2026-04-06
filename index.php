@@ -2,11 +2,12 @@
 $page_title = 'Antfarm Tech Solutions | Smart Websites & Digital Growth in Harare';
 $meta_description = 'Antfarm Tech Solutions builds premium websites, professional business emails, and digital growth systems for businesses in Harare, Zimbabwe.';
 $page_slug = 'home';
+$canonical_path = '/index.php';
 include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
 
-<main>
+<main id="main-content" tabindex="-1">
     <section class="hero-section position-relative overflow-hidden">
         <div class="hero-glow hero-glow-1"></div>
         <div class="hero-glow hero-glow-2"></div>

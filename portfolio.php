@@ -2,11 +2,12 @@
 $page_title = 'Portfolio | Antfarm Tech Solutions Projects';
 $meta_description = 'Explore portfolio highlights from Antfarm Tech Solutions, showcasing premium digital projects for businesses in Harare and across Zimbabwe.';
 $page_slug = 'portfolio';
+$canonical_path = '/portfolio.php';
 include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
 
-<main>
+<main id="main-content" tabindex="-1">
     <section class="inner-hero-section position-relative overflow-hidden">
         <div class="hero-glow hero-glow-1"></div>
         <div class="hero-glow hero-glow-2"></div>

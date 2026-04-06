@@ -2,11 +2,12 @@
 $page_title = 'Pricing | Antfarm Tech Solutions Website Packages';
 $meta_description = 'View Antfarm Tech Solutions website pricing packages for businesses in Harare, Zimbabwe: Basic, Standard, and Premium plans.';
 $page_slug = 'pricing';
+$canonical_path = '/pricing.php';
 include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
 
-<main>
+<main id="main-content" tabindex="-1">
     <section class="inner-hero-section position-relative overflow-hidden">
         <div class="hero-glow hero-glow-1"></div>
         <div class="hero-glow hero-glow-2"></div>
